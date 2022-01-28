@@ -81,18 +81,17 @@ a{
 
 
 /*Top Section Styles*/
-.navbar{
+.nav{
     display: flex;
     justify-content:space-between;
 }
 .logo{
-    width: 25%;
+    width: 45%;
 }
 .links{
     width: 55%;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;   
 }
 
 .top-content {
@@ -119,22 +118,22 @@ a{
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 4% 0;
-    
+    width: 90%;
 }
 
-/* .middle-content .boxes .box {
+.middle-content .boxes .box {
     background: black;
     margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
 
 .boxes .box1{
@@ -208,7 +207,15 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
-
+.bottom-links{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration-color: white;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
 /*About Page Styles*/
 .about-top-content{
     display: flex;
@@ -236,14 +243,21 @@ footer {
     align-content: center;
 }
 
-.about-bottom-content{
+.about-bottom-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 4%;
-    border-bottom: 2px solid #ff4b00;
-    text-align: justify;
-    align-content: center;
+    text-align: center;
+}
+
+.about-bottom-content .text-container {
+    width: 40%;
+    padding: 0 2%;
+    padding-bottom: 2%;  
 }
 
 /*Responsive Styles*/
+@media(max-width:500px){
+
+}/*this is for the 500 query*/
