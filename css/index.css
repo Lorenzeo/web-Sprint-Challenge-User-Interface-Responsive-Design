@@ -91,7 +91,7 @@ a{
 }
 .links{
     margin-top: 2.5%;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;   
 }
@@ -254,9 +254,8 @@ footer {
     border-bottom: 2px solid #ff4b00;
     justify-content: space-between;
     align-content: center;
-    padding: 2.8%;
+    padding-bottom: 4%;
 }
-
 
 .about-bottom-content {
     display: flex;
