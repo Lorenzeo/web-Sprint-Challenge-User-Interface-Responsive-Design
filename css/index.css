@@ -81,15 +81,17 @@ a{
 
 
 /*Top Section Styles*/
-.nav{
+.head-nav{
     display: flex;
     justify-content:space-between;
 }
 .logo{
-    width: 45%;
+    width: 25%;
+    margin-top: 2%;
 }
 .links{
-    width: 55%;
+    margin-top: 2.5%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;   
 }
@@ -109,6 +111,19 @@ a{
     padding-bottom: 4%;  
 }
 
+.cta-image .top-img{
+    width: 100%;
+}
+
+.index-about{
+margin-top: 2.5%;    
+display: flex;
+justify-content: space-between;
+text-align: left;
+}
+.index-about h2{
+text-align: center;
+}
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
@@ -121,70 +136,66 @@ a{
 .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 4% 0;
-    width: 90%;
-}
-
-.middle-content .boxes .box {
-    background: black;
+    justify-content: center;
+    background: white;
     margin: 4% 0;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 40px 40px;
 }
-
 
 .boxes .box1{
     background-color: teal;
     padding: 5%;
-    color: white;
 }
 .boxes .box2{
     background-color: gold;
     padding: 5%;
-    color: white;
+    
 }
 .boxes .box3{
     background-color: cadetblue;
     padding: 5%;
-    color: white;
+  
 }
 .boxes .box4{
     background-color: coral;
     padding: 5%;
-    color: white;
+    
 }
 .boxes .box5{
     background-color: crimson;
     padding: 5%;
-    color: white;
+    
 }
 .boxes .box6{
     background-color: forestgreen;
     padding: 5%;
-    color: white;
+   
 }
 .boxes .box7{
     background-color: darkorchid;
     padding: 5%;
-    color: white;
+    
 }
 .boxes .box8{
     background-color: hotpink;
     padding: 5%;
-    color: white;
+   
 }
 .boxes .box9{
     background-color: indigo;
     padding: 5%;
-    color: white;
+    
 }
 .boxes .box10{
     background-color: dodgerblue;
     padding: 5%;
-    color: white;
+    
+}
+.box-container button{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 /*Bottom Section Styles*/
@@ -201,6 +212,8 @@ a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
 
 /*Footer Styles*/
 footer {
@@ -243,18 +256,23 @@ footer {
     align-content: center;
 }
 
+
 .about-bottom-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 4%;
-    text-align: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    text-align: left;
 }
 
-.about-bottom-content .text-container {
-    width: 40%;
+ .about-bottom-content .text-container {
+    width: 85%;
     padding: 0 2%;
-    padding-bottom: 2%;  
+    padding-bottom: 2%;   
+ } 
+
+.bottom-links a{
+    color: lightgrey;
 }
 
 /*Responsive Styles*/
