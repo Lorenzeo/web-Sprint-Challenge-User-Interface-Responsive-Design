@@ -306,28 +306,29 @@ footer {
     a{
         text-decoration: none;
         color: black;
-    
     }
     
     
     /*Top Section Styles*/
     .head-nav{
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         flex-direction: column;
         align-content: center;
+        align-items: center;
     }
     .logo{
+        display:flex;
         width: 50%;
-        margin-top: 2%;
+        margin-top: 3.5%;
         justify-content: center;
         align-items: center;
         align-content: center;
     }
 
-    .logo img{
+    /* .top-img{
         align-content: center;
-    }
+    } */
     
     .links{
         margin-top: 2.5%;
@@ -469,6 +470,7 @@ footer {
     .bottom-content h2{
         text-align: center;
         padding-bottom: 2%;
+        padding-top: 1.5%;
         }
     /* .bottom-content .text-container:last-child {
         padding-right: 0;
