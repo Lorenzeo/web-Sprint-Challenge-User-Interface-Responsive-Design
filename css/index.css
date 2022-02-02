@@ -324,22 +324,30 @@ footer {
         align-items: center;
         align-content: center;
     }
+
+    .logo img{
+        align-content: center;
+    }
     
     .links{
         margin-top: 2.5%;
         width: 100%;
         display: flex;
         justify-content: space-evenly;   
+        padding-bottom: 1%;
     }
-    
-    /* .top-content {
+    .top-img{
+        align-content: center;
+        align-items: center;
+    }
+    .top-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 4%;
         border-bottom: 2px solid #ff4b00;
         text-align: justify;
-    } */
+    } 
     
     .top-content .text-container {
         width: 100%;
@@ -377,11 +385,11 @@ footer {
     .boxes {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
         background: white;
         margin: 4% 0;
         color: white;
-        gap: 20px 20px;
     }
     
     .boxes .box1{
@@ -437,9 +445,15 @@ footer {
         display: flex;
         align-items: center;
         text-align: center;
+        align-content: center;
     }
     .about-top-content h1{
         text-align: center;
+        padding-bottom: 2%;
+        padding-top: 1.5%
+    }
+    .about-top-content p{
+        padding-bottom: 2%;
     }
     
     /*Bottom Section Styles*/
@@ -455,6 +469,7 @@ footer {
     }
     .bottom-content h2{
         text-align: center;
+        padding-bottom: 2%;
         }
     /* .bottom-content .text-container:last-child {
         padding-right: 0;
@@ -498,6 +513,8 @@ footer {
     }
     .box-container h2{
         text-align: center;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
     }
     .text-container h1{
         text-align: center;
